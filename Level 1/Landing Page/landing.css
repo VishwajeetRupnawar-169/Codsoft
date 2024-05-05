@@ -1,0 +1,70 @@
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+/* Hero Section Styles */
+.hero {
+    background-image: url('images (1).jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+.hero h2 {
+    margin: 0;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+/* Call to Action Styles */
+.cta {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.cta p {
+    margin: 0;
+    font-size: 24px;
+}
+.cta button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0056b3;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.cta button:hover {
+    background-color: #004080;
+}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
