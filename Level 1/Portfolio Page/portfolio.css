@@ -1,0 +1,235 @@
+
+/* Custom CSS for Portfolio Website */
+body{
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+/* Hero Section */
+.bgimage {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero_desc {
+    font-size: 1.5rem;
+}
+
+/* About Section */
+#about {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+#about h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.imageAboutPage {
+    border-radius: 50%;
+}
+
+.about-text {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Services Section */
+#services {
+    padding: 100px 0;
+    text-align: center;
+}
+
+#services h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.servicesText {
+    border: 2px solid #343a40;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.servicesText:hover {
+    border-color: #ffc107;
+    transform: translateY(-5px);
+}
+
+.servicesIcon {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.servicesText h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.servicesText p {
+    font-size: 18px;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+#portfolio h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portfolioContent {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.portfolioContent:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.portfolioContent .card-img-top {
+    border-bottom: 2px solid #343a40;
+}
+
+.portfolioContent .card-body {
+    padding: 20px;
+}
+
+.portfolioContent h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.portfolioContent p {
+    font-size: 18px;
+}
+
+.portfolioContent .btn {
+    background-color: #343a40;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.portfolioContent .btn:hover {
+    background-color: #ffc107;
+    color: #343a40;
+}
+
+/* Contact Section */
+#contact {
+    padding: 100px 0;
+}
+
+#contact h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.google-map {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.contact-form .btn {
+    background-color: #343a40;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.contact-form .btn:hover {
+    background-color: #ffc107;
+    color: #343a40;
+}
+
+/* Footer Section */
+#footer {
+    background-color: #343a40;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: #ffc107;
+}
